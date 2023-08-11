@@ -1,0 +1,168 @@
+section.features
+    h2 Get Fit and Get Best Results
+    div
+        p.h2para
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,
+            | eaque repellat.Ex est alias porro impedit fugit voluptatum ullam eaque.
+    article
+        .container
+            img.logo(src='./images/calanderlogo.jpg', alt='open365logo')
+            h3 Open 365 days/year
+            p
+                | Lorem ipsum, dolor sit amet consectetur adipisicing
+                | elit. Delectus aspernatur nostrum commodi
+                | fugit? Veniam sit sequi eius asperiores fugiat nobis.
+        .container
+            img.logo(src='./images/locationlogo.jpg', alt='locationlogo')
+            h3 At Best Locations
+            p
+                | Lorem ipsum, dolor sit amet consectetur adipisicing
+                | elit. Delectus aspernatur nostrum commodi
+                | fugit? Veniam sit sequi eius asperiores fugiat nobis.
+        .container
+            img.logo(src='./images/trainerlogo.png', alt='safeandtrainerlogo')
+            h3 Trainers avaliable
+            p
+                | Lorem ipsum, dolor sit amet consectetur adipisicing
+                | elit. Delectus aspernatur nostrum commodi
+                | fugit? Veniam sit sequi eius asperiores fugiat nobis.
+        .container
+            img.logo(src='./images/equipmentslogo.jpg', alt='equipmentlogo')
+            h3 Order Our Products
+            p
+                | Lorem ipsum, dolor sit amet consectetur adipisicing
+                | elit. Delectus aspernatur nostrum commodi
+                | fugit? Veniam sit sequi eius asperiores fugiat nobis.
+br
+br
+section.howitworks
+    h2 HOW IT WORKS — SIMPLE AS 1, 2, 3
+    .howto-container
+        img.iphone-img(src='./images/iphonegym.jpg', alt='iphone-img', srcset='')
+        .steps-container
+            .step-container
+                div 1
+                p.howto-para Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            .step-container
+                div 2
+                p.howto-para Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            .step-container
+                div 3
+                p.howto-para Lorem ipsum dolor sit amet consectetur adipisicing.
+            .step-container
+                img.appstoreicons(src='./images/download-app-android.png', alt='androidlogo')
+                img.appstoreicons(src='./images/download-app.jpg', alt='appstorelogo')
+section
+    h2 WE ARE CURRENTLY IN THESE CITES
+    .wearehere
+        .citycontainer
+            img.cityimages(src='./images/newdelhi.jpg', alt='delhiimage')
+            h3 New Delhi
+            .iconsanddescription
+                i.fas.fa-users.icons
+                p 800 Happy Customers
+            .iconsanddescription
+                i.fas.fa-dumbbell.icons
+                p 50+ Gyms
+            .iconsanddescription
+                i.fab.fa-twitter.icons
+                p @newdelhigyms
+        .citycontainer
+            img.cityimages(src='./images/agra.jpg', alt='agraimage')
+            h3 Agra
+            .iconsanddescription
+                i.fas.fa-users.icons
+                p 600 Happy Customers
+            .iconsanddescription
+                i.fas.fa-dumbbell.icons
+                p 40+ Gyms
+            .iconsanddescription
+                i.fab.fa-twitter.icons
+                p @agragyms
+        .citycontainer
+            img.cityimages(src='./images/mumbai.jpg', alt='mumbaiimage')
+            h3 Mumbai
+            .iconsanddescription
+                i.fas.fa-users.icons
+                p 1500 Happy Customers
+            .iconsanddescription
+                i.fas.fa-dumbbell.icons
+                p 100+ Gyms
+            .iconsanddescription
+                i.fab.fa-twitter.icons
+                p @mumbaigyms
+        .citycontainer
+            img.cityimages(src='./images/amritsar.jpg', alt='amritsarimage')
+            h3 Amritsar
+            .iconsanddescription
+                i.fas.fa-users.icons
+                p 1000 Happy Customers
+            .iconsanddescription
+                i.fas.fa-dumbbell.icons
+                p 50+ Gyms
+            .iconsanddescription
+                i.fab.fa-twitter.icons
+                p @amritsargyms
+section.customer-review
+    br
+    h2 OUR CUSTOMERS REVIEW
+    .allcustomers
+        .customer
+            p.customerpara
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                | delectus! Ex, nobis.
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                | delectus! Ex, nobis.
+            .customer-id
+                img.customerphoto(src='./images/customerA.jpg', alt='customerA')
+                p.customer-id-name XYZ
+        .customer
+            p.customerpara
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                | delectus! Ex, nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                | delectus! Ex, nobis
+            .customer-id
+                img.customerphoto(src='', alt='customerA')
+                p.customer-id-name ABC
+        .customer
+            p.customerpara
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                | delectus! Ex, nobis.
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                | delectus! Ex, nobis
+            .customer-id
+                img.customerphoto(src='', alt='customerA')
+                p.customer-id-name PQR
+
+include planContainer
+
+section.suggestionform
+    form
+        .form-elements
+            .singleformelement
+                label.lables(for='name') Name:
+                input#name.inputs(type='text', placeholder='your name')
+            .singleformelement
+                label.lables(for='email') Email:
+                input#email.inputs(type='text', placeholder='abc@xyz')
+            .singleformelement
+                label.lables(for='checkbox') Newsletter?
+                input#checkbox.inputs(type='checkbox', name='')
+            .singleformelement
+                label.lables(for='gettoknow') How did you find us?
+                select#gettoknow.inputs(name='howtheyfindus')
+                    option(value='socialmedia') Social Media
+                    option(value='socialmedia') Friends
+                    option(value='socialmedia') Newspaper
+                    option(value='socialmedia') Other
+            .singleformelement
+                label.lables(for='suggestions') Drop us a line.
+                textarea.inputs(name='', id='', cols='20', rows='5')
+        .form-elements
+            a.buttonsubmit(href='#') Submit

@@ -1,0 +1,12 @@
+extend base
+block content
+    form.login(method="POST" action="/api/user/updateuser")
+        .form-elements
+            .singleformelement
+                div.lables Email:
+                input.inputs(type='text', name="email" , placeholder='username or email')
+            .singleformelement
+                div.lables  Name:
+                input.inputs(name="name" , placeholder='')
+            .form-elements
+                button(href='#' type="submit") Update

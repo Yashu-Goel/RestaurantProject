@@ -1,0 +1,23 @@
+RESTful api are stateless i.e. they do not save the state(user).
+to check if the user is the one who he is claiming to be...is the user genuine...
+in rest api server do not save anything about user....
+when content of page changes then we need a machanism to authenticate...
+so that a user do not need to login again and again and can use the protected route again and again
+all the data needed for authentication is saved in cookies...
+
+----first time signup or login---{
+when client sends request ,then the user is added to databse(for signup only) and the database returns a 
+1.unique key(specified by us/programmer[what type of key he wanna use]) ex. the _id and we use this as a 
+payload + 2.we also have the header info given by server and this header consists of algorithm used for 
+encryption ex.  SHA256 and its decrypter ex. JWT..
+3.along with these 2 server has a special secret key (it is only avaliable to server) 
+
+when all 3 are combined a value is formed which is encrypted by the server using the algorithm and a 
+object containing the (header,payload,encrypted signature) is sent back to the client (auth token) 
+JSON object which is used in form of cookie...
+
+and when client sends a request for the profile or anything related to a user with this request it sends
+its cookie for the authentication and the server again makes a new signature by using the client-payload
++client header + server key it creates a new signature and if this signature matches with the signature 
+sent in the client request(from cookie) then user is authenticated otherwise it is not. 
+}

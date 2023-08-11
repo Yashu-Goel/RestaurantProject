@@ -1,0 +1,368 @@
+<!-- 
+    freecodecamp
+    basic html
+    basic css
+    applied visual design
+    css flexbox
+ -->
+
+
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous"></link>
+<i class="fas fa-shipping-fast icons"></i>
+<i class="far fa-calendar-plus icons"></i>
+<i class="fas fa-carrot icons"></i>
+<i class="fas fa-boxes icons"></i> 
+
+this is for adding the icons in the page like what we did in this page is we added images instead
+of icons and icons do not tear while zooming.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </link>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="joinGym">JOIN GYM </a></li>
+                <li><a href="howItWorks">HOW IT WORKS</a></li>
+                <li><a href="ourCities">LOCATE US</a></li>
+                <li><a href="signUp">SIGH UP</a></li>
+            </ul>
+        </nav>
+        <div class="showcase">
+            <h1>
+                Good-Bye Bad Habits.</br>
+                Hello Gym.
+            </h1>
+            <br>
+            <a class="colourfulLink" href="joinNow">Join Now</a>
+            <a class="transparentLink" href="moreInfo">More Info.</a>
+        </div>
+    </header>
+
+
+    <section class="features">
+        <h2>Get Fit and Get Best Results</h2>
+        <div>
+            <p class="h2para">Lorem ipsum dolor sit amet consectetur adipisicing elit.Dicta,
+                eaque repellat.Ex est alias porro impedit fugit voluptatum ullam eaque.</p>
+
+        </div>
+        <article>
+            <div class="container">
+                <img class="logo" src="./images/calanderlogo.jpg" alt="open365logo">
+                <h3>Open 365 days/year</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Delectus aspernatur nostrum commodi
+                    fugit? Veniam sit sequi eius asperiores fugiat nobis.</p>
+            </div>
+            <div class="container">
+                <img class="logo" src="./images/locationlogo.jpg" alt="locationlogo">
+                <h3>At Best Locations</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Delectus aspernatur nostrum commodi
+                    fugit? Veniam sit sequi eius asperiores fugiat nobis.</p>
+            </div>
+            <div class="container">
+                <img class="logo" src="./images/trainerlogo.png" alt="safeandtrainerlogo">
+                <h3>Trainers avaliable</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Delectus aspernatur nostrum commodi
+                    fugit? Veniam sit sequi eius asperiores fugiat nobis.</p>
+            </div>
+            <div class="container">
+                <img class="logo" src="./images/equipmentslogo.jpg" alt="equipmentlogo">
+                <h3>Order Our Products</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Delectus aspernatur nostrum commodi
+                    fugit? Veniam sit sequi eius asperiores fugiat nobis.</p>
+            </div>
+        </article>
+    </section>
+    <br>
+    <br>
+    <section class="howitworks">
+        <h2>HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
+        <div class="howto-container">
+            <img src="./images/iphonegym.jpg" class="iphone-img" alt="iphone-img" srcset="">
+            <div class="steps-container">
+                <div class="step-container">
+                    <div>1</div>
+                    <p class="howto-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="step-container">
+                    <div>2</div>
+                    <p class="howto-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="step-container">
+                    <div>3</div>
+                    <p class="howto-para">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="step-container">
+                    <img class="appstoreicons" src="./images/download-app-android.png" alt="androidlogo">
+                    <img class="appstoreicons" src="./images/download-app.jpg" alt="appstorelogo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>WE ARE CURRENTLY IN THESE CITES</h2>
+
+        <div class="wearehere">
+            <div class="citycontainer">
+                <img class="cityimages" src="./images/newdelhi.jpg" alt="delhiimage">
+                <h3>New Delhi</h3>
+                <div class="iconsanddescription"><i class="fas fa-users icons"></i>
+                    <p>800 Happy Customers</p>
+                </div>
+                <div class="iconsanddescription"> <i class="fas fa-dumbbell icons"></i>
+                    <p>50+ Gyms</p>
+                </div>
+                <div class="iconsanddescription"><i class="fab fa-twitter icons"></i>
+                    <p>@newdelhigyms</p>
+                </div>
+            </div>
+            <div class="citycontainer">
+                <img class="cityimages" src="./images/agra.jpg" alt="agraimage">
+                <h3>Agra</h3>
+                <div class="iconsanddescription"><i class="fas fa-users icons"></i>
+                    <p>600 Happy Customers</p>
+                </div>
+                <div class="iconsanddescription"> <i class="fas fa-dumbbell icons"></i>
+                    <p>40+ Gyms</p>
+                </div>
+                <div class="iconsanddescription"> <i class="fab fa-twitter icons"></i>
+                    <p>@agragyms</p>
+                </div>
+
+            </div>
+            <div class="citycontainer">
+                <img class="cityimages" src="./images/mumbai.jpg" alt="mumbaiimage">
+                <h3>Mumbai</h3>
+                <div class="iconsanddescription"> <i class="fas fa-users icons"></i>
+                    <p>1500 Happy Customers</p>
+                </div>
+                <div class="iconsanddescription"> <i class="fas fa-dumbbell icons"></i>
+                    <p>100+ Gyms</p>
+                </div>
+                <div class="iconsanddescription"><i class="fab fa-twitter icons"></i>
+                    <p>@mumbaigyms</p>
+                </div>
+
+            </div>
+            <div class="citycontainer">
+                <img class="cityimages" src="./images/amritsar.jpg" alt="amritsarimage">
+                <h3>Amritsar</h3>
+                <div class="iconsanddescription"><i class="fas fa-users icons"></i>
+                    <p>1000 Happy Customers</p>
+                </div>
+
+
+                <div class="iconsanddescription"> <i class="fas fa-dumbbell icons"></i>
+                    <p>50+ Gyms</p>
+                </div>
+                <div class="iconsanddescription"> <i class="fab fa-twitter icons"></i>
+                    <p>@amritsargyms</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="customer-review">
+        <br>
+        <h2>OUR CUSTOMERS REVIEW</h2>
+        <div class="allcustomers">
+            <div class="customer">
+                <p class="customerpara">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                    delectus! Ex, nobis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                    delectus! Ex, nobis.</p>
+                <div class="customer-id">
+                    <img class="customerphoto" src="./images/customerA.jpg" alt="customerA">
+                    <p class="customer-id-name">XYZ</p>
+                </div>
+            </div>
+
+            <div class="customer">
+                <p class="customerpara">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                    delectus! Ex, nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                    delectus! Ex, nobis</p>
+                <div class="customer-id">
+                    <img class="customerphoto" src="" alt="customerA">
+                    <p class="customer-id-name">ABC</p>
+                </div>
+            </div>
+
+            <div class="customer">
+                <p class="customerpara">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                    delectus! Ex, nobis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+                    delectus! Ex, nobis</p>
+                <div class="customer-id">
+                    <img class="customerphoto" src="" alt="customerA">
+
+                    <p class="customer-id-name">PQR</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="signup">
+        <h2>START EATING HEALTHY TODAY</h2>
+        <div class="signup-parent">
+            <div class="signup-child">
+                <div class="signup-header">
+                    <h3>PREMIUM</h3>
+                    <div class="signup-pricing">
+                        <span class="pricing">$399</span>/month
+                        <p>That’s only 13.30$ per meal</p>
+                    </div>
+                </div>
+                <div class="signup-features">
+                    <ul>
+                        <li><i class="fas fa-check small-icon"> </i>1 meal every day</li>
+                        <li><i class="fas fa-check small-icon"> </i>Order 24/7</li>
+                        <li><i class="fas fa-check small-icon"> </i>Access to newest creations</li>
+                        <li><i class="fas fa-check small-icon"> </i>Free delivery</li>
+                    </ul>
+                    <div class="signup-button">
+                        <a href="#" class="colourfulLinkofSignUp">I'm hungry</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="signup-child active">
+                <div class="signup-header">
+                    <h3>PREMIUM</h3>
+                    <div class="signup-pricing">
+                        <span class="pricing">$399</span>/month
+                        <p>That’s only 13.30$ per meal</p>
+                    </div>
+                </div>
+                <div class="signup-features">
+                    <ul>
+                        <li><i class="fas fa-check small-icon"> </i>1 meal every day</li>
+                        <li><i class="fas fa-check small-icon"> </i>Order 24/7</li>
+                        <li><i class="fas fa-check small-icon"> </i>Access to newest creations</li>
+                        <li><i class="fas fa-check small-icon"> </i>Free delivery</li>
+                    </ul>
+                    <div class="signup-button">
+                        <a href="#" class="colourfulLinkofSignUp">I'm hungry</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="signup-child">
+                <div class="signup-header">
+                    <h3>PREMIUM</h3>
+                    <div class="signup-pricing">
+                        <span class="pricing">$399</span>/month
+                        <p>That’s only 13.30$ per meal</p>
+                    </div>
+                </div>
+                <div class="signup-features">
+                    <ul>
+                        <li><i class="fas fa-check small-icon"> </i>1 meal every day</li>
+                        <li><i class="fas fa-check small-icon"> </i>Order 24/7</li>
+                        <li><i class="fas fa-check small-icon"> </i>Access to newest creations</li>
+                        <li><i class="fas fa-check small-icon"> </i>Free delivery</li>
+                    </ul>
+                    <div class="signup-button">
+                        <a href="#" class="colourfulLinkofSignUp">I'm hungry</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="suggestionform">
+        <h2>CONTACT US</h2>
+        <form>
+            <div class="form-elements">
+                <div class="singleformelement">
+                    <div>
+                        Name:
+                    </div>
+                    <input class="inputs" type="text" id="name" placeholder="your name">
+                </div>
+                <div class="singleformelement">
+                    <div> Email:</div>
+                    <input class="inputs" type="text" id="email" placeholder="abc@xyz">
+                </div>
+                <div class="singleformelement">
+                    <div> Newsletter?</div>
+                    <input class="inputs" type="checkbox" name="" id="checkbox">
+                </div>
+                <div class="singleformelement">
+                    <div> How did you find us?</div>
+                    <select class="inputs" name="howtheyfindus" id="gettoknow">
+                        <option value="socialmedia">Social Media</option>
+                        <option value="socialmedia">Friends</option>
+                        <option value="socialmedia">Newspaper</option>
+                        <option value="socialmedia">Other</option>
+                    </select>
+                </div>
+                <div class="singleformelement">
+                    <div>Drop us a line.</div>
+                    <textarea class="inputs" name="" id="" cols="20" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-elements">
+                <a class="buttonsubmit" href="#">Submit</a>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-parent">
+            <ul class="footer-text">
+                <li class="text-value"><a href="">About us</a></li>
+                <li class="text-value"><a href="">ios App</a></li>
+                <li class="text-value"><a href="">Android App</a></li>
+            </ul>
+            <ul class="social-link">
+                <li><a href="#"><i class="fab fa-facebook icon-footer"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square icon-footer"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram icon-footer"></i></a></li>
+                <li><a href="#"><i class="fab fa-snapchat-square icon-footer"></i></a></li>
+            </ul>
+        </div>
+        <p class="footer-p">Copyright © 2019 EVERYONE. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+[
+    {"id":1,
+      "name": "weekends only",
+      "description": "",
+      "price": "$30",
+      "rating": "4.5",
+      "duration": "1 month"
+    },
+    { "id":2,
+      "name": "6 days per week",
+      "description": "",
+      "price": "$70",
+      "rating": "4.6",
+      "duration": "1 month"
+    },
+    {"id":3,
+      "name": "5 days per week",
+      "description": "",
+      "price": "$60",
+      "rating": "4.7",
+      "duration": "1 month"
+    }
+  ]

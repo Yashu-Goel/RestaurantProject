@@ -1,0 +1,19 @@
+
+
+date:- 05/11/19
+read-----------nodeMailer ,
+mongoose{
+    read the docs-guide
+    schema,models,queries,validation,middleware
+},
+
+read concept of bubbling in html
+
+create admin panel where it has create, update and delete plans options and a link to look up at all plans...
+
+
+for implementing payments in your app...
+read about stripe............
+
+// forget password and signup mail, o-auth google login, image upload, admin panel-create update and delete plan,bookings model to
+ show plans booked by user

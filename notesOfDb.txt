@@ -1,0 +1,25 @@
+
+
+ to create a collection = db nameofdb;
+ insert a json object = nameofdb.insertOne(obj); 
+ insert many json objects = nameofdb.insertMany(arrayOfObjects);
+ insert an array of json objects = nameofdb.insert(arrayOfObjects);
+ 
+ list all documents =(gives an array of objects) nameofdb.find();
+ list a single first occourence of an document = nameofdb.findOne();
+ list according to cases = nameofdb.find({"name":"john"});
+ list according to many cases = nameofdb.find( {$Or:["age":40,"salary":30k,"city":"delhi"] } );
+ list according to operator conditions nameofdb.find({"salary":{$gt:1000}})
+
+
+there are some more functions so read all of them from mongoDB site
+ updateOne()
+ replaceOne()
+ deleteOne()
+ read about projections too.
+
+
+ username---users
+ password---tonystark
+
+
